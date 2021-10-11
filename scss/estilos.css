@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+/*Variables*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.miLogo {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.miHeader a {
+  font-size: 19px;
+  font-weight: bold;
+  text-align: right;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar-nav li {
+  padding: 8px;
+}
+
+.miHeader a:hover {
+  text-decoration: none;
+  color: goldenrod !important;
+  font-weight: bold;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  font-size: 20px;
+}
+
+h1 {
+  color: black;
+  font-weight: 700;
+  margin: 10px;
+  padding: 0 25px;
+  text-align: center;
+}
+
+#informacion {
+  background: -webkit-gradient(linear, left top, right top, from(#8d8df4), to(#1515d1));
+  background: linear-gradient(90deg, #8d8df4 0%, #1515d1 100%);
+  min-height: 100px;
+  padding-top: 5px;
+}
+
+#informacion .content {
+  font-weight: 500;
+  font-size: 20px;
+  padding: 40px;
+  color: whitesmoke;
+}
+
+.descriptionFoto {
+  text-align: center !important;
+}
+
+#carruselFotos {
+  background: -webkit-gradient(linear, left top, right top, from(#b7b7cd), to(#cfcfe6));
+  background: linear-gradient(90deg, #b7b7cd 0%, #cfcfe6 100%);
+}
+
+#carruselFotos p {
+  font-size: 37px;
+  font-weight: 500;
+  text-align: left;
+}
+
+#clubes {
+  background: -webkit-gradient(linear, left top, right top, from(#b7b7cd), to(#cfcfe6));
+  background: linear-gradient(90deg, #b7b7cd 0%, #cfcfe6 100%);
+  min-height: 80px;
+  padding-top: 5px;
+}
+
+#clubes h1 {
+  color: darkblue;
+  font-weight: 800;
+  margin: 10px;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.textEquipo {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+#informacionNewells {
+  background: -webkit-gradient(linear, left top, right top, from(#77030b), color-stop(35%, #e52626), to(#d05a64));
+  background: linear-gradient(90deg, #77030b 0%, #e52626 35%, #d05a64 100%);
+  min-height: 100px;
+  padding-top: 0.5px;
+}
+
+#informacionBarcelona {
+  background: -webkit-gradient(linear, left top, right top, from(#a81a1a), to(#2661e5));
+  background: linear-gradient(90deg, #a81a1a 0%, #2661e5 100%);
+  min-height: 100px;
+  padding-top: 0.5px;
+}
+
+#informacionPsg {
+  background: -webkit-gradient(linear, left top, right top, from(#d4d7f1), color-stop(49%, #2a2a7a), to(#9b2c2c));
+  background: linear-gradient(90deg, #d4d7f1 0%, #2a2a7a 49%, #9b2c2c 100%);
+  min-height: 100px;
+  padding-top: 0.5px;
+}
+
+#informacionSeleccion {
+  background: -webkit-gradient(linear, left top, right top, from(#23d3f0), color-stop(50%, #ededee), to(#23d3f0));
+  background: linear-gradient(90deg, #23d3f0 0%, #ededee 50%, #23d3f0 100%);
+  min-height: 100px;
+  padding-top: 0.5px;
+}
+
+#informacionNewells .contentNewells {
+  font-weight: 500;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  padding: 25px;
+  font-size: 20px;
+}
+
+#informacionBarcelona .contentBarcelona {
+  font-weight: 500;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  padding: 25px;
+  font-size: 20px;
+}
+
+#informacionPsg .contentPsg {
+  font-weight: 500;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  padding: 25px;
+  font-size: 20px;
+}
+
+#informacionSeleccion .contentSeleccion {
+  font-weight: 500;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  padding: 25px;
+  font-size: 20px;
+}
+
+@media (max-width: 576px) {
+  #informacionSeleccion .contentSeleccion {
+    font-size: 18px;
+  }
+  #informacionBarcelona .contentBarcelona {
+    font-size: 18px;
+  }
+  #informacionPsg .contentPsg {
+    font-size: 18px;
+  }
+  #informacionNewells .contentNewells {
+    font-size: 18px;
+  }
+}
+
+#titulos {
+  background: -webkit-gradient(linear, left top, right top, from(#b7b7cd), to(#cfcfe6));
+  background: linear-gradient(90deg, #b7b7cd 0%, #cfcfe6 100%);
+  min-height: 450px;
+  height: 100vh;
+}
+
+#titulos h1 {
+  font-weight: 800;
+  color: darkblue;
+  text-align: left;
+  margin: 20px;
+  padding: 0 25px;
+  text-align: center;
+}
+
+@media (max-width: 450px) {
+  #titulos {
+    font-size: 15px;
+    font-weight: 600;
+    min-height: 100px;
+  }
+  #titulos h1 {
+    font-size: 22px;
+  }
+}
+
+#footer {
+  background: -webkit-gradient(linear, left top, right top, from(#26262d), color-stop(70%, #000004));
+  background: linear-gradient(90deg, #26262d 0%, #000004 70%);
+  font-size: 1rem;
+  color: white;
+  font-weight: 500;
+  min-height: 240px;
+  padding-left: 20px;
+}
+
+@media (max-width: 450px) {
+  #footer li a:hover {
+    font-size: 12px;
+    display: inline-block;
+  }
+  #footer ul li {
+    display: inline;
+    padding: 0px;
+  }
+}
+
+#footer li a:hover {
+  font-size: 18px;
+  text-decoration: none;
+  color: goldenrod !important;
+  font-weight: bold;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#footer ul li {
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px;
+  list-style: none;
+  margin: 15px;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#galeria {
+  background: -webkit-gradient(linear, left top, right top, from(#b7b7cd), to(#cfcfe6));
+  background: linear-gradient(90deg, #b7b7cd 0%, #cfcfe6 100%);
+  display: inline-block;
+  text-align: center;
+}
+
+#galeria h1 {
+  font-weight: 800;
+  color: darkblue;
+  text-align: center;
+  margin: 20px;
+  padding: 0 25px;
+}
+
+#galeria .fotos img {
+  display: inline-block;
+  width: 25%;
+  margin-bottom: 20px;
+  margin: 10px;
+}
+
+#contacto {
+  background: -webkit-gradient(linear, left top, right top, from(#b7b7cd), to(#cfcfe6));
+  background: linear-gradient(90deg, #b7b7cd 0%, #cfcfe6 100%);
+  min-height: 55vh;
+}
+
+#contacto ul {
+  list-style: none;
+}
+
+#contacto li {
+  text-align: center;
+}
+
+#contacto a {
+  font-size: 50px;
+  font-weight: 700;
+  text-align: left;
+  text-decoration: none;
+  color: blue;
+}
+
+#contacto a:hover {
+  font-size: 60px;
+  text-decoration: none;
+  text-decoration: none;
+  color: black !important;
+  font-weight: bold;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.textContacto {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px;
+}
+
+.bg-formulario {
+  background: -webkit-gradient(linear, left top, right top, from(#b7b7cd), to(#cfcfe6));
+  background: linear-gradient(90deg, #b7b7cd 0%, #cfcfe6 100%);
+}
+
+.fontSize {
+  font-size: 15px;
+}
+
+textarea {
+  min-height: 150px;
+}
+
+.input:focus {
+  outline: none;
+  background: -webkit-gradient(linear, left top, right top, from(#c0b671), color-stop(46%, #cdb514), to(#e8a74c));
+  background: linear-gradient(90deg, #c0b671 0%, #cdb514 46%, #e8a74c 100%);
+}
+
+#recibe {
+  background: -webkit-gradient(linear, left top, right top, from(#b7b7cd), to(#cfcfe6));
+  background: linear-gradient(90deg, #b7b7cd 0%, #cfcfe6 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 50vh;
+}
+
+#recibe a {
+  font-size: 50px;
+  font-weight: 800;
+  text-decoration: none;
+  color: black;
+  margin: 30px;
+  padding: 20px;
+}
+
+#recibe a:hover {
+  font-size: 55px;
+  text-decoration: none;
+  color: blue !important;
+  font-weight: bold;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+/*# sourceMappingURL=estilos.css.map */

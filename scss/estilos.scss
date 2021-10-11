@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+/*Variables*/
+$title-font: 20px;
+$alto-minimo: 100px;
+$letra-bold: bold;
+$font-weight: 500;
+$padding-equipo: 25px;
+$justify-equipo: start;
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+.bg-black{
+	background-color: #000;
+}
+.miLogo{
+    font-size: 35px;
+    font-weight: $letra-bold;
+}
+.miHeader a{
+    font-size: 19px;
+    font-weight: $letra-bold;
+    text-align: right;
+	justify-content: space-between;
+}
+.navbar-nav{
+	li{
+		padding: 8px;
+	}
+}
+.miHeader a:hover{
+    text-decoration: none;
+	color: goldenrod !important;
+	font-weight: $letra-bold;
+	transform: scale(1.0);
+    font-size: $title-font;
+}
+h1{
+	color: black;
+	font-weight: 700;
+	margin: 10px;
+	padding: 0 25px;
+	text-align: center;
+}
+#informacion{
+	background: linear-gradient(90deg, rgba(141,141,244,1) 0%, rgba(21,21,209,1) 100%);
+	min-height: $alto-minimo;
+	padding-top: 5px;
+			.content{
+				font-weight: 500;
+				font-size: $title-font;
+				padding: 40px;
+				color: whitesmoke;
+			}
+}
+.descriptionFoto{
+	text-align: center !important;	
+}
+#carruselFotos{
+	background: linear-gradient(90deg, rgba(183,183,205,1) 0%, rgba(207,207,230,1) 100%);
+			p{
+				font-size: 37px;
+				font-weight: 500;
+				text-align: left;
+			}
+}
+#clubes{
+	background: linear-gradient(90deg, rgba(183,183,205,1) 0%, rgba(207,207,230,1) 100%);
+	min-height: 80px;
+	padding-top: 5px;
+			h1{
+				color: darkblue;
+				font-weight: 800;
+				margin: 10px;	
+				padding: 0 10px;
+				text-align: center;
+			}
+}
+.textEquipo{
+	font-size: 40px;
+	font-weight: 800;
+}
+#informacionNewells{
+	background: linear-gradient(90deg, rgba(119,3,11,1) 0%, rgba(229,38,38,1) 35%, rgba(208,90,100,1) 100%);
+	min-height: $alto-minimo;
+	padding-top: 0.5px;
+}
+#informacionBarcelona{
+	background: linear-gradient(90deg, rgba(168,26,26,1) 0%, rgba(38,97,229,1) 100%);
+	min-height: $alto-minimo;
+	padding-top: 0.5px;
+}
+#informacionPsg{
+	background: linear-gradient(90deg, rgba(212,215,241,1) 0%, rgba(42,42,122,1) 49%, rgba(155,44,44,1) 100%);
+	min-height: $alto-minimo;
+	padding-top: 0.5px;
+}
+#informacionSeleccion{
+	background: linear-gradient(90deg, rgba(35,211,240,1) 0%, rgba(237,237,238,1) 50%, rgba(35,211,240,1) 100%);
+	min-height: $alto-minimo;
+	padding-top: 0.5px;
+}
+@mixin sizes ($font-weight, $justify-equipo, $padding-equipo){
+	font-weight: $font-weight;
+	justify-content: $justify-equipo;
+	padding: $padding-equipo;
+}
+#informacionNewells .contentNewells{
+	@include sizes(500, start, 25px);
+	font-size: $title-font;
+}
+#informacionBarcelona .contentBarcelona{
+	@include sizes(500, start, 25px);
+	font-size: $title-font;
+}
+#informacionPsg .contentPsg{
+	@include sizes(500, start, 25px);
+	font-size: $title-font;
+}
+#informacionSeleccion .contentSeleccion{
+	@include sizes(500, start, 25px);
+	font-size: $title-font;
+}
+@media (max-width: 576px){
+	#informacionSeleccion .contentSeleccion {
+		font-size: 18px;
+	}
+	#informacionBarcelona .contentBarcelona{
+		font-size: 18px;
+	}
+	#informacionPsg .contentPsg{
+		font-size: 18px;
+	}
+	#informacionNewells .contentNewells{
+		font-size: 18px;
+	}
+}
+#titulos{
+	background: linear-gradient(90deg, rgba(183,183,205,1) 0%, rgba(207,207,230,1) 100%);
+	min-height: 450px;
+	height: 100vh;
+}
+#titulos h1{
+	font-weight: 800;
+	color: darkblue;
+	text-align: left;
+	margin: 20px;
+	padding: 0 25px;
+	text-align: center;
+}
+@media (max-width: 450px){
+    #titulos {
+        font-size: 15px;
+        font-weight: 600;
+        min-height: 100px;
+    }
+    #titulos h1{
+        font-size: 22px;
+    }
+}
+#footer{
+	background: linear-gradient(90deg, rgba(38,38,45,1) 0%, rgba(0,0,4,1) 70%);
+	font-size: 1rem;
+	color: white;
+	font-weight: 500;
+	min-height: 240px;
+	padding-left: 20px;
+}
+@media (max-width: 450px){
+    #footer li a:hover{
+        font-size: 12px;
+        display: inline-block;
+    }
+    #footer ul li{
+        display: inline;
+		padding: 0px;
+    }
+}
+#footer li a:hover{
+	font-size: 18px;
+	text-decoration: none;
+	color: goldenrod !important; 
+	font-weight: $letra-bold;
+	transform: scale(1.1);
+}
+#footer ul li{
+	display: inline-block;
+	text-decoration: none;
+	padding: 5px;
+	list-style: none;
+	margin: 15px;
+}
+.title{
+	font-size: 40px;
+	font-weight: $letra-bold;
+	text-align: center;
+}
+#galeria{
+	background: linear-gradient(90deg, rgba(183,183,205,1) 0%, rgba(207,207,230,1) 100%);
+	display: inline-block;
+	text-align: center;
+}
+#galeria h1{
+	font-weight: 800;
+	color: darkblue;
+	text-align: center;
+	margin: 20px;
+	padding: 0 25px;
+}
+#galeria .fotos img{
+	display: inline-block;
+	width: 25%;
+	margin-bottom: 20px;
+	margin: 10px;
+}
+#contacto{
+	background: linear-gradient(90deg, rgba(183,183,205,1) 0%, rgba(207,207,230,1) 100%);
+	min-height: 55vh;
+			ul{
+				list-style: none;
+			}
+				li{
+					text-align: center;
+				}
+					a{
+						font-size: 50px;
+						font-weight: 700;
+						text-align: left;
+						text-decoration: none;
+						color: blue;
+					}
+						a:hover{
+							font-size: 60px;
+							text-decoration: none;
+							text-decoration: none;
+							color: black !important;  
+							font-weight: $letra-bold;
+							transform: scale(1.1)
+						}
+}
+.textContacto{
+	font-size: $title-font;
+	font-weight: $letra-bold;
+	text-align: center;
+	margin: 20px;
+}	
+.bg-formulario{
+	background: linear-gradient(90deg, rgba(183,183,205,1) 0%, rgba(207,207,230,1) 100%);
+}
+.fontSize{
+	font-size: 15px;
+}
+textarea{
+	min-height: 150px;
+}
+.input:focus{
+	outline: none;
+	background: linear-gradient(90deg, rgba(192,182,113,1) 0%, rgba(205,181,20,1) 46%, rgba(232,167,76,1) 100%);
+}	
+#recibe{
+	background: linear-gradient(90deg, rgba(183,183,205,1) 0%, rgba(207,207,230,1) 100%);
+	display: flex;
+	min-height: 50vh;
+}
+#recibe a{
+	font-size: 50px;
+	font-weight: 800;
+	text-decoration: none;
+	color: black;
+	margin: 30px;
+	padding: 20px;
+}
+#recibe a:hover{
+	font-size: 55px;
+	text-decoration: none;
+	color: blue !important;  
+	font-weight: $letra-bold;
+	transform: scale(1.0)
+}
