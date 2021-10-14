@@ -113,39 +113,39 @@ h1{
 #informacionNewells .contentNewells{
 	@include sizes(500, start, 25px);
 	font-size: $title-font;
-	color: rgb(43, 41, 38)
+	color: rgb(0, 0, 0)
 }
 #informacionBarcelona .contentBarcelona{
 	@include sizes(500, start, 25px);
 	font-size: $title-font;
-	color: rgb(43, 41, 38)
+	color: rgb(0, 0, 0)
 }
 #informacionPsg .contentPsg{
 	@include sizes(500, start, 25px);
 	font-size: $title-font;
-	color: rgb(43, 41, 38)
+	color: rgb(0, 0, 0)
 }
 #informacionSeleccion .contentSeleccion{
 	@include sizes(500, start, 25px);
 	font-size: $title-font;
-	color: rgb(43, 41, 38)
+	color: rgb(0, 0, 0)
 }
 @media (max-width: 576px){
 	#informacionSeleccion .contentSeleccion {
 		font-size: 21px;
-		font-weight: 400;
+		font-weight: 600;
 	}
 	#informacionBarcelona .contentBarcelona{
 		font-size: 21px;
-		font-weight: 400;
+		font-weight: 600;
 	}
 	#informacionPsg .contentPsg{
 		font-size: 21px;
-		font-weight: 400;
+		font-weight: 600;
 	}
 	#informacionNewells .contentNewells{
 		font-size: 21px;
-		font-weight: 400;
+		font-weight: 600;
 	}
 }
 #titulos{
