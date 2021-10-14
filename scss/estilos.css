@@ -168,15 +168,19 @@ h1 {
 @media (max-width: 576px) {
   #informacionSeleccion .contentSeleccion {
     font-size: 21px;
+    font-weight: 400;
   }
   #informacionBarcelona .contentBarcelona {
     font-size: 21px;
+    font-weight: 400;
   }
   #informacionPsg .contentPsg {
     font-size: 21px;
+    font-weight: 400;
   }
   #informacionNewells .contentNewells {
     font-size: 21px;
+    font-weight: 400;
   }
 }
 
