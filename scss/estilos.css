@@ -112,8 +112,8 @@ h1 {
 }
 
 #informacionPsg {
-  background: -webkit-gradient(linear, left top, right top, from(#dadbe1), color-stop(51%, #9b2c2c), to(#0952d5));
-  background: linear-gradient(90deg, #dadbe1 0%, #9b2c2c 51%, #0952d5 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#dadbe1), color-stop(51%, #9b2c2c), to(#052768));
+  background: linear-gradient(90deg, #dadbe1 0%, #9b2c2c 51%, #052768 100%);
   min-height: 100px;
   padding-top: 0.5px;
 }
