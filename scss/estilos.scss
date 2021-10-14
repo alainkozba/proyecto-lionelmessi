@@ -113,22 +113,22 @@ h1{
 #informacionNewells .contentNewells{
 	@include sizes(500, start, 25px);
 	font-size: $title-font;
-	color: burlywood
+	color: rgb(43, 41, 38)
 }
 #informacionBarcelona .contentBarcelona{
 	@include sizes(500, start, 25px);
 	font-size: $title-font;
-	color: burlywood
+	color: rgb(43, 41, 38)
 }
 #informacionPsg .contentPsg{
 	@include sizes(500, start, 25px);
 	font-size: $title-font;
-	color: burlywood
+	color: rgb(43, 41, 38)
 }
 #informacionSeleccion .contentSeleccion{
 	@include sizes(500, start, 25px);
 	font-size: $title-font;
-	color: burlywood
+	color: rgb(43, 41, 38)
 }
 @media (max-width: 576px){
 	#informacionSeleccion .contentSeleccion {
