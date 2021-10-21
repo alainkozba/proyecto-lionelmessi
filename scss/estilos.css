@@ -189,6 +189,7 @@ h1 {
   background: linear-gradient(90deg, #b7b7cd 0%, #cfcfe6 100%);
   min-height: 450px;
   height: 100vh;
+  overflow-x: hidden;
 }
 
 #titulos h1 {
