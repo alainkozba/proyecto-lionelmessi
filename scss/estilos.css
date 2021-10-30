@@ -273,7 +273,6 @@ h1 {
 }
 
 #galeria .fotos img {
-  display: inline-block;
   width: 25%;
   margin-bottom: 20px;
   margin: 10px;
