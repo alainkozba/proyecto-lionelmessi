@@ -272,6 +272,12 @@ h1 {
   padding: 0 25px;
 }
 
+#galeria .fotos img {
+  display: inline-block;
+  margin-bottom: 10px;
+  margin: 10px;
+}
+
 #contacto {
   background: -webkit-gradient(linear, left top, right top, from(#b7b7cd), to(#cfcfe6));
   background: linear-gradient(90deg, #b7b7cd 0%, #cfcfe6 100%);
