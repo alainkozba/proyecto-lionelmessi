@@ -215,6 +215,16 @@ h1{
 	display: inline-block;
 	text-align: center;
 }
+.bg-galeria{
+	background: linear-gradient(90deg, rgba(183,183,205,1) 0%, rgba(207,207,230,1) 100%);
+}
+.galeria{
+	font-weight: 800;
+	color: darkblue;
+	text-align: center;
+	margin: 20px;
+	padding: 0 25px;
+}
 #galeria h1{
 	font-weight: 800;
 	color: darkblue;
